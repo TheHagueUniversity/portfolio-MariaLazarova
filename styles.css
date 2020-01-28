@@ -1,56 +1,43 @@
 html, body {
 	background: #F7D6E0; /* Beccapurple */
-	margin: 0;
-}
-nav {
-    width: 339px;
-    padding: 5px;
-    
-}
-  scroll-container {
-    display: block;
-    width: 350px;
-    height: 200px;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-  }
-  scroll-page {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    font-size: 5em;
-  }
-
-  .grid{
-
-    widows: 70%;
-
-  } 
-  .square {
-    float:left;
-    position: relative;
-    width: 30%;
-    padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
-    margin:1.66%;
-    overflow:hidden;
-    border:grey;
+  margin: 0;
 }
 
-.content {
-    position:absolute;
-    height:80%; /* = 100% - 2*10% padding */
-    width:90%; /* = 100% - 2*5% padding */
-    padding: 10% 5%;
+.me_img{
+  position: absolute;
+  left: 55%;
+  top: 1%;
 }
-.table{
-    display:table;
-    height:100%;
-    width:100%;
+.main_img_left{
+  position: relative;
+  float: left;
+  margin-top: -30px;
 }
-.table-cell{
-    display:table-cell;
-    vertical-align:middle;
-    height:100%;
-    width:100%;
+.header3{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+.about_me_text{
+  font-family: 'Old Standard TT', serif;
+  text-align: center;
+  
+}
+.longer_text{
+  font-family: 'Old Standard TT', serif;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 750px;
+  margin-right: 30px;
+}
+.list{
+  font-family: 'Old Standard TT', serif;
+  text-align: left;
+  margin-left: 60px ; 
+  margin-bottom: 200px;
+
+}
+.main_img_right{
+  float: rigth;
+  margin-right: -30px;
 }
