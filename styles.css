@@ -2,7 +2,9 @@ html, body {
 	background: #F7D6E0; /* Beccapurple */
   margin: 0;
 }
-
+* {
+  box-sizing: border-box;
+}
 .me_img{
   position: absolute;
   left: 55%;
@@ -12,6 +14,7 @@ html, body {
   position: relative;
   float: left;
   margin-top: -30px;
+  margin-bottom: 100px;
 }
 .header3{
   font-family: 'Raleway', sans-serif;
@@ -21,7 +24,6 @@ html, body {
 .about_me_text{
   font-family: 'Old Standard TT', serif;
   text-align: center;
-  
 }
 .longer_text{
   font-family: 'Old Standard TT', serif;
@@ -30,7 +32,7 @@ html, body {
   margin-left: 750px;
   margin-right: 30px;
 }
-.list{
+.list_right{
   font-family: 'Old Standard TT', serif;
   text-align: left;
   margin-left: 60px ; 
@@ -38,6 +40,17 @@ html, body {
 
 }
 .main_img_right{
-  float: rigth;
+  position: relative;
+  float: right;
   margin-right: -30px;
+}
+.list_left{
+  font-family: 'Old Standard TT', serif;
+  margin-left: 60px ; 
+  font-size: larger;
+ 
+}
+.hard_skills{
+  margin-left: 300px;
+  margin-top: 30px;
 }
