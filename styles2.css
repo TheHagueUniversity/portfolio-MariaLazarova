@@ -1,16 +1,91 @@
 html, body {
 	background: #F7D6E0; 
-  margin: 0;
+    margin: 0;
 }
 
 * {
   box-sizing: border-box;
 }
+.section_container {
+    border: 2px solid aqua;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.about-me_container{
+   /*  border: 2px solid aqua;
+    display: flex; */
+}
+.about_me_text_container {
+margin: 5%;
+}
 
+.left_container { 
+    border: green 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.img_container{
+    background-color: #B46565;
+    border: darkred solid 3px;
+}
+.right_container {
+    border: darkmagenta 3px solid;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.me_img_container{
+    border: darkgoldenrod solid 2px;
+    position: absolute;
+    margin-left: 28%;
+
+}
+.quality_container {
+    display: flex;
+    flex-direction: row;
+    border: steelblue 3px solid;
+    padding: 5%;
+    /* justify-content: start; */
+}
+.display_end {
+    justify-content: flex-end;
+}
+.strengths{
+border: solid 3px darkgoldenrod;
+}
+.hard_skills{
+    border: solid 3px darkgoldenrod;
+    justify-content: end;
+}
+.soft_skills{
+    border: solid 3px darkgoldenrod;
+
+}
+.edu_p {
+    border: tomato 3px solid;
+}
+.edu_p.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.edu_text_container{
+text-align: center;
+}
+.right_container.edu_text_container {
+    text-align: center;
+    justify-content: space-around;
+    padding: 5%;
+    font-size: larger;
+}
 .me_img{
-  position: absolute;
+   /* position: absolute;
   left: 55%;
-  top: 1%;
+  top: 1%; */
 }
 .main_img_left{
   position: relative;
@@ -29,65 +104,18 @@ html, body {
 }
 .about_me_text_container{
   border:blue 2px solid;
-}
-.longer_text{
-  font-family: 'Old Standard TT', serif;
+  height: 100%;
   text-align: center;
-  margin-top: 30px;
-  margin-left: 750px;
-  margin-right: 30px;
+  font-family: 'Old Standard TT', serif;
   font-size: larger;
 }
-.list_right{
-  font-family: 'Old Standard TT', serif;
-  text-align: left;
-  margin-left: 60px ; 
-  margin-bottom: 200px;
 
-}
-.main_img_right{
-  position: relative;
-  float: right;
-}
-.list_left{
-  font-family: 'Old Standard TT', serif;
-  margin-left: 60px ; 
-  font-size: larger;
-  float: left;
- 
-}
-.soft_skills{
-  margin-top: 400px;
-  
-}
-.strengths{
-  float:left;
-}
-.hard_skills{
-  float:left; 
-  margin-left: 50px;
-  margin-top: 200px;
-}
+
+
 
 /* -------Education------*/
-.education_text{
-  font-family: 'Old Standard TT', serif;
-  float: right;
-  margin-right: 50px;
-  text-align: center;
-  font-size: larger;
-}
-.uni{
-  margin-top: 100px;
-}
-.resume{
-  margin-top: 100px;  
-}
-.resume1{
-margin-bottom: 50px;
-}
-.button{
-  margin-left: 15px;
+
+a.button{
   padding: 10px 25px ;
   background-color: black;
   border: none;
@@ -95,6 +123,7 @@ margin-bottom: 50px;
   cursor: pointer;
   color: #F7D6E0;
   transition: all 0.3 ease 0s;
+  width: 20%;
 }
 .button:hover {
   background-color: pink; 
