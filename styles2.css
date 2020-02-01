@@ -19,7 +19,9 @@ html, body {
 .about_me_text_container {
 margin: 5%;
 }
-
+.flow_container{
+    padding:5%;
+}
 .left_container { 
     border: green 2px solid;
     display: flex;
@@ -27,7 +29,9 @@ margin: 5%;
     justify-content: center;
     width: 100%;
 }
-
+.projects_container {
+padding-top: 4%;
+}
 .img_container{
     background-color: #B46565;
     border: darkred solid 3px;
@@ -49,6 +53,9 @@ margin: 5%;
     flex-direction: row;
     border: steelblue 3px solid;
     padding: 5%;
+    font-family: 'Old Standard TT', serif;
+    font-size: larger;
+
     /* justify-content: start; */
 }
 .display_end {
@@ -87,6 +94,7 @@ text-align: center;
   left: 55%;
   top: 1%; */
 }
+
 .main_img_left{
   position: relative;
   float: left;
@@ -109,6 +117,15 @@ text-align: center;
   font-family: 'Old Standard TT', serif;
   font-size: larger;
 }
+.project_text_container{
+
+  height: 100%;
+  text-align: start;
+  font-family: 'Old Standard TT', serif;
+  font-size: large;
+  padding-right: 2%;
+}
+
 
 
 
@@ -116,10 +133,11 @@ text-align: center;
 /* -------Education------*/
 
 a.button{
+  font-family: 'Old Standard TT', serif;
   padding: 10px 25px ;
   background-color: black;
   border: none;
-  border-radius: 50px;
+  border-radius: 25px;
   cursor: pointer;
   color: #F7D6E0;
   transition: all 0.3 ease 0s;
@@ -168,8 +186,8 @@ a.button{
   margin-top: 350px;
 }
 .home{
-  float: right;
-  margin-left: 50px;
+padding-left: 5%;
+
 }
 /*-----Project-------*/
 .photo-section{
@@ -213,26 +231,31 @@ a.button{
   transform: scale(1.05);
 }
 .grid-img-1{
-  background: linear-gradient(rgba(187, 174, 174, 0.473),rgba(0,0,0,0.10)),
-  url(../portfolio-MariaLazarova/images/black_white.png);
+  background: linear-gradient(rgba(77, 48, 48, 0.349),rgba(0,0,0,0.10)),
+  url(../portfolio-MariaLazarova/images/flow.png);
   background-size: cover;
 }
 .grid-img-2{
-  background: linear-gradient(rgba(187, 174, 174, 0.473),rgba(0,0,0,0.10)),
+  background: linear-gradient(rgba(77, 48, 48, 0.349),rgba(0,0,0,0.10)),
   url(../portfolio-MariaLazarova/images/hallmark.png);
   background-size: cover;
 }
 .grid-img-3{
-  background: linear-gradient(rgba(187, 174, 174, 0.473),rgba(0,0,0,0.10)),
-  url(../portfolio-MariaLazarova/images/first_photo.png);
+  background: linear-gradient(rgba(77, 48, 48, 0.349),rgba(0,0,0,0.10)),
+  url(../portfolio-MariaLazarova/images/wad.jpeg);  
+  background-size: cover;
 }
 .grid-img-4{
   background: linear-gradient(rgba(187, 174, 174, 0.473),rgba(0,0,0,0.10)),
-  url(../portfolio-MariaLazarova/images/first_photo.png);
+  url(../portfolio-MariaLazarova/images/ai_congress.jpeg);
+  background-size: cover;
+
 }
 .grid-img-5{
   background: linear-gradient(rgba(187, 174, 174, 0.473),rgba(0,0,0,0.10)),
-  url(../portfolio-MariaLazarova/images/first_photo.png);
+  url(../portfolio-MariaLazarova/images/social_media.jpeg);
+  background-size: cover;
+
 }
 .grid-info {
   width: inherit;
