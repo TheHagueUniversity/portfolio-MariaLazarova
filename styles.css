@@ -1,102 +1,132 @@
 html, body {
 	background: #F7D6E0; 
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 * {
   box-sizing: border-box;
 }
-
-.me_img{
-  position: absolute;
-  left: 55%;
-  top: 1%;
+.section_container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
-.main_img_left{
+.about-me_container{
+   /*  border: 2px solid aqua;
+    display: flex; */
+}
+.about_me_text_container {
+margin: 5%;
+}
+.flow_container{
+    padding:5%;
+}
+.left_container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.projects_container {
+padding-top: 4%;
+}
+.img_container{
+    background-color: #B46565;
+  }
+.right_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.me_img_container{
+    position: absolute;
+    margin-left: 28%;
+
+}
+.quality_container {
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: larger;
+
+    /* justify-content: start; */
+}
+.display_end {
+    justify-content: flex-end;
+}
+
+.hard_skills{
+    justify-content: end;
+}
+
+.edu_p.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.edu_text_container{
+text-align: center;
+}
+.right_container.edu_text_container {
+    text-align: center;
+    justify-content: space-around;
+    padding: 5%;
+    font-size: larger;
+}
+.me_img{
+   /* position: absolute;
+  left: 55%;
+  top: 1%; */
+}
+
+.main_img_left {
   position: relative;
   float: left;
-  border: solid red 2px;
 }
-.header3{
-  font-family: 'Raleway', sans-serif;
+.header3 {
+  font-family: 'Playfair Display', serif;
   text-align: center;
   margin-top: 50px;
 }
-.about_me_text{
-  font-family: 'Old Standard TT', serif;
+.about_me_text {
+  font-family: 'Playfair Display', serif;
   text-align: center;
   font-size: larger;
 }
-.about_me_text_container{
-  border:blue 2px solid;
-}
-.longer_text{
-  font-family: 'Old Standard TT', serif;
+.about_me_text_container {
+  height: 100%;
   text-align: center;
-  margin-top: 30px;
-  margin-left: 750px;
-  margin-right: 30px;
+  font-family: 'Playfair Display', serif;
   font-size: larger;
 }
-.list_right{
-  font-family: 'Old Standard TT', serif;
-  text-align: left;
-  margin-left: 60px ; 
-  margin-bottom: 200px;
+.project_text_container{
 
+  height: 100%;
+  text-align: start;
+  font-family: 'Playfair Display', serif;
+  font-size: large;
+  padding-right: 2%;
 }
-.main_img_right{
-  position: relative;
-  float: right;
-}
-.list_left{
-  font-family: 'Old Standard TT', serif;
-  margin-left: 60px ; 
-  font-size: larger;
-  float: left;
- 
-}
-.soft_skills{
-  margin-top: 400px;
-  
-}
-.strengths{
-  float:left;
-}
-.hard_skills{
-  float:left; 
-  margin-left: 50px;
-  margin-top: 200px;
-}
+
+
+
+
 
 /* -------Education------*/
-.education_text{
-  font-family: 'Old Standard TT', serif;
-  float: right;
-  margin-right: 50px;
-  text-align: center;
-  font-size: larger;
-}
-.uni{
-  margin-top: 100px;
-}
-.resume{
-  margin-top: 100px;  
-}
-.resume1{
-margin-bottom: 50px;
-}
-.button{
-  margin-left: 15px;
+
+a.button{
   padding: 10px 25px ;
   background-color: black;
   border: none;
-  border-radius: 50px;
+  border-radius: 25px;
   cursor: pointer;
   color: #F7D6E0;
   transition: all 0.3 ease 0s;
+  width: 20%;
 }
-.button:hover {
+.button:hover button{
   background-color: pink; 
   color: white;
 }
@@ -114,11 +144,17 @@ margin-bottom: 50px;
   position: fixed;
   z-index: 1;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  font-family:'Playfair Display', serif;  
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
 
 
 .topnav a {
-  float: right;
+  font-family: 'Playfair Display', serif; 
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -139,8 +175,8 @@ margin-bottom: 50px;
   margin-top: 350px;
 }
 .home{
-  float: right;
-  margin-left: 50px;
+padding-left: 5%;
+
 }
 /*-----Project-------*/
 .photo-section{
@@ -183,34 +219,42 @@ margin-bottom: 50px;
 .photo-box:hover {
   transform: scale(1.05);
 }
+.photo-box > a {
+  display: block;
+}
 .grid-img-1{
-  background: linear-gradient(rgba(187, 174, 174, 0.473),rgba(0,0,0,0.10)),
-  url(../portfolio-MariaLazarova/images/black_white.png);
+  background: linear-gradient(rgba(77, 48, 48, 0.349),rgba(0,0,0,0.10)),
+  url(../portfolio-MariaLazarova/images/flow.png);
   background-size: cover;
 }
 .grid-img-2{
-  background: linear-gradient(rgba(187, 174, 174, 0.473),rgba(0,0,0,0.10)),
+  background: linear-gradient(rgba(77, 48, 48, 0.349),rgba(0,0,0,0.10)),
   url(../portfolio-MariaLazarova/images/hallmark.png);
   background-size: cover;
 }
 .grid-img-3{
-  background: linear-gradient(rgba(187, 174, 174, 0.473),rgba(0,0,0,0.10)),
-  url(../portfolio-MariaLazarova/images/first_photo.png);
+  background: linear-gradient(rgba(77, 48, 48, 0.349),rgba(0,0,0,0.10)),
+  url(../portfolio-MariaLazarova/images/wad.jpeg);  
+  background-size: cover;
 }
 .grid-img-4{
   background: linear-gradient(rgba(187, 174, 174, 0.473),rgba(0,0,0,0.10)),
-  url(../portfolio-MariaLazarova/images/first_photo.png);
+  url(../portfolio-MariaLazarova/images/ai_congress.jpeg);
+  background-size: cover;
+
 }
 .grid-img-5{
   background: linear-gradient(rgba(187, 174, 174, 0.473),rgba(0,0,0,0.10)),
-  url(../portfolio-MariaLazarova/images/first_photo.png);
+  url(../portfolio-MariaLazarova/images/social_media.jpeg);
+  background-size: cover;
+
 }
 .grid-info {
   width: inherit;
   height: inherit;
 }
 .grid-info h3{
-  font-family: 'Old Standard TT', serif;
+  font-family: 'Playfair Display', serif;
   font-weight: 400;
   color: white;
   font-size: 42px;
@@ -220,7 +264,7 @@ margin-bottom: 50px;
   line-height: 1.5;
 }
 .grid-info p{
-  font-family: 'Old Standard TT', serif;
+  font-family: 'Playfair Display', serif;
   color:white;
   text-decoration: none;
 }
