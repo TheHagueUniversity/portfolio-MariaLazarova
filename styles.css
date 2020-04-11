@@ -7,11 +7,16 @@ html, body {
 * {
   box-sizing: border-box;
 }
+
+
+.all-headings {
+  font-family: 'Open Sans', sans-serif;
+}
 .section_container {
     display: flex;
     flex-direction: row;
     width: 100%;
-}
+  }
 .about-me_container{
    /*  border: 2px solid aqua;
     display: flex; */
@@ -39,6 +44,15 @@ padding-top: 4%;
     display: flex;
     flex-direction: column;
 }
+.right_container_project {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
 .me_img_container{
     position: absolute;
     margin-left: 28%;
@@ -108,9 +122,20 @@ text-align: center;
   font-family: 'Playfair Display', serif;
   font-size: large;
   padding-right: 2%;
+  
 }
 
+.project_text_container1{
 
+ 
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: large;
+  padding-right: 2%;
+  justify-content: center;
+  align-items: center;
+  
+}
 
 
 
@@ -138,7 +163,7 @@ a.button{
 
 
 .topnav {
-  background-color: black ;
+  background-color: #F7D6E0;
   overflow: hidden;
   top: 0px;
   position: fixed;
@@ -151,11 +176,10 @@ a.button{
   padding-bottom: 15px;
   padding-top: 15px;
 }
-
-
 .topnav a {
   font-family: 'Playfair Display', serif; 
-  color: #f2f2f2;
+  color:black;
+  opacity: 100%;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -164,7 +188,8 @@ a.button{
 }
 .topnav a:hover {
   background-color: #F7D6E0;
-  color: black;
+  color: #B46565;
+
 }
 .topnav a.active {
   background-color: #B46565;
@@ -224,22 +249,22 @@ padding-left: 5%;
 }
 .grid-img-1{
   background: linear-gradient(rgba(77, 48, 48, 0.349),rgba(0,0,0,0.10)),
-  url(../portfolio-MariaLazarova/images/flow.png);
+  url(../portfolio-MariaLazarova/images/my-place.jpg);
   background-size: cover;
 }
 .grid-img-2{
   background: linear-gradient(rgba(77, 48, 48, 0.349),rgba(0,0,0,0.10)),
-  url(../portfolio-MariaLazarova/images/hallmark.png);
+  url(../portfolio-MariaLazarova/images/hallmark.jpg);
   background-size: cover;
 }
 .grid-img-3{
   background: linear-gradient(rgba(77, 48, 48, 0.349),rgba(0,0,0,0.10)),
-  url(../portfolio-MariaLazarova/images/wad.jpeg);  
+  url(../portfolio-MariaLazarova/images/flow.jpeg);  
   background-size: cover;
 }
 .grid-img-4{
   background: linear-gradient(rgba(187, 174, 174, 0.473),rgba(0,0,0,0.10)),
-  url(../portfolio-MariaLazarova/images/ai_congress.jpeg);
+  url(../portfolio-MariaLazarova/images/wad.jpeg);
   background-size: cover;
 
 }
@@ -274,5 +299,38 @@ padding-left: 5%;
     flex-direction: column;
     width: 100%;
 }
- 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
 }
