@@ -8,8 +8,13 @@ html, body {
   box-sizing: border-box;
 }
 
-
-
+.process {
+  display: flex;
+  ;
+}
+.mycursor {
+  cursor: url("images/triangle.png"), auto;
+}
 .all-headings {
   font-family: 'Open Sans', sans-serif;
 }
@@ -261,13 +266,13 @@ padding-left: 5%;
 }
 .grid-img-4{
   background: linear-gradient(rgba(187, 174, 174, 0.473),rgba(0,0,0,0.10)),
-  url(../portfolio-MariaLazarova/images/wad.jpeg);
+  url(../portfolio-MariaLazarova/images/social-media.jpg);
   background-size: cover;
 
 }
 .grid-img-5{
   background: linear-gradient(rgba(187, 174, 174, 0.473),rgba(0,0,0,0.10)),
-  url(../portfolio-MariaLazarova/images/social-media.jpg);
+  url(../portfolio-MariaLazarova/images/wad.jpeg);
   background-size: cover;
 
 }
