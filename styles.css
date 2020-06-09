@@ -251,28 +251,28 @@ padding-left: 5%;
 }
 .grid-img-1{
   background: linear-gradient(rgba(77, 48, 48, 0.349),rgba(0,0,0,0.10)),
-  url(../portfolio-MariaLazarova/images.nosync/my-place.jpg);
+  url(../portfolio-MariaLazarova/images/my-place.jpg);
   background-size: cover;
 }
 .grid-img-2{
   background: linear-gradient(rgba(77, 48, 48, 0.349),rgba(0,0,0,0.10)),
-  url(../portfolio-MariaLazarova/images.nosync/hallmark.jpg);
+  url(../portfolio-MariaLazarova/images/hallmark.jpg);
   background-size: cover;
 }
 .grid-img-3{
   background: linear-gradient(rgba(77, 48, 48, 0.349),rgba(0,0,0,0.10)),
-  url(../portfolio-MariaLazarova/images.nosync/flow.jpeg);  
+  url(../portfolio-MariaLazarova/images/flow.jpeg);  
   background-size: cover;
 }
 .grid-img-4{
   background: linear-gradient(rgba(187, 174, 174, 0.473),rgba(0,0,0,0.10)),
-  url(../portfolio-MariaLazarova/images.nosync/social-media.jpg);
+  url(../portfolio-MariaLazarova/images/social-media.jpg);
   background-size: cover;
 
 }
 .grid-img-5{
   background: linear-gradient(rgba(187, 174, 174, 0.473),rgba(0,0,0,0.10)),
-  url(../portfolio-MariaLazarova/images.nosync/wad.jpeg);
+  url(../portfolio-MariaLazarova/images/wad.jpeg);
   background-size: cover;
 
 }
